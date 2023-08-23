@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <title> Fort login portal  </title>
+        <link rel="stylesheet" href="../dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="../myicon/css/all.css"/>
+        <script  src= "../dist/js/bootstrap.min.js" > </script>
+        <link rel="icon" href="fort-icon.png" type="image/x-icon" />
+       <link rel="stylesheet" href="../coding files/style.css" />
+       <script src="../coding files/admin.js" ></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+          <style>
+           .error{
+            color:red;
+           }
+          </style>
+    </head>
+
+    <body class="bg-light" >
+       
+
+            <!--nav bar start-->
+              <nav class="navbar navbar-expand-md navbar-dark  p-3 " style="background-color:  rgba(11, 7, 1, 0.997)!important; padding-top: 3%!important;">
+                <div class="container-fluid pl-3">
+                  <a class="navbar-brand " href="#">  <i class="fa-brands fa-fort-awesome fa-2x " style="color: bisque;"></i> <font  style="color: bisque; font-family: Didot, serif; margin-left: 3px; font-size: 30px; ">FORT</font></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    
+                      <li class="nav-item ps-3">
+                        <a class="nav-link" href="" class="fa fa-plus" data-bs-toggle="modal" data-bs-target="#userregister"> <i class="fa fa-plus"></i> Create Account</a>
+                      </li>
+    
+                      <li class="nav-item ps-3">
+                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#userlogin"><i class="fa-solid fa-user-plus"></i>  Login</a>
+                      </li>
+                      <li class="nav-item ps-3">
+                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#adminlogin"><i class="fa-solid fa-user-secret"></i></i>  Admin</a>
+                      </li>
+
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+              <!--nav  bar end-->
+
+
+              <!--user registeration start-->
+          <div class="modal" class="modal fade" tabindex="-1" id="userregister" data-bs-backdrop="static">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                  <h5 class="modal-title text-center"> User Register</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+               
+                    
+                 <div class="input-group "> 
+                  <label class="input-group-text"> <i class="fa-solid fa-envelope"></i></label>
+                   <input type="email" class="form-control" id="remail" placeholder="Enter your email-id" />
+                  </div>
+                  <div class="mb-3"><i class="error " id="remailerror"></i></div>
+
+                  <div class="input-group ">
+                    <label class="input-group-text"> <i class="fa fa-lock"></i></label>
+                     <input type="password" class="form-control" id="rpassword" placeholder="Enter your password" />
+                    </div>
+                    <div class="mb-3"> <i class="error mb-3" id="rpassworderror"></i></div>
+
+                    <div class="input-group ">
+                      <label class="input-group-text"> <i class="fa fa-mobile-retro"></i></label>
+                       <input type="number" class="form-control" id="rmob" placeholder="Enter your mobile number"/>
+                      </div>
+                      <div class="mb-3"> <i class="error mb-3" id="rmoberror"></i></div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <button type="button" onclick="registervalidate()" class="btn btn-danger" >Register<i class="fa-solid fa-angles-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--user registration end-->
+
+            <!-- user login start-->
+            <div class="modal" tabindex="-1" id="userlogin" data-bs-backdrop="static" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title text-center"> User login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                 
+                   <div class="input-group ">
+                    <label class="input-group-text"> <i class="fa-solid fa-envelope"></i></label>
+                     <input type="email" id="uemail" class="form-control" placeholder="Enter your email-id" />
+                    </div>
+                    <div class="mb-3"> <i class="error" id="uemailerror"></i></div>
+  
+                    <div class="input-group ">
+                      <label class="input-group-text"> <i class="fa fa-lock"></i></label>
+                       <input type="password" id = "upassword" class="form-control" placeholder="Enter your password" />
+                      </div>
+                      <div class="mb-3"> <i class="error" id="upassworderror"></i></div>
+  
+                  </div>
+                  <div class="modal-footer justify-content-center">
+                    <button type="button" onclick="uservalidate()" class="btn btn-danger" >Login<i class="fa-solid fa-angles-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <!--user login end-->
+
+          <!-- admin login start-->
+          <div class="modal" tabindex="-1" id="adminlogin" data-bs-backdrop="static" >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                  <h5 class="modal-title text-center">Admin-login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+               
+                  
+
+                 <div class="input-group ">
+                  <label class="input-group-text"> <i class="fa-solid fa-envelope"></i></label>
+                   <input type="email" class="form-control" id="aemail" placeholder="Enter your email-id" />
+                  </div>
+                  <div class="mb-3">  <i class="error" id="aemailerror"></i></div>
+
+                  <div class="input-group ">
+                    <label class="input-group-text"> <i class="fa fa-lock"></i></label>
+                     <input type="password" class="form-control" id="apassword" placeholder="Enter your password" />
+                    </div>
+                    <div class="mb-3"><i class="error" id="apassworderror"></i></div>
+
+                    <div class="input-group ">
+                      <label class="input-group-text"> <i class="fa fa-mobile-retro"></i></label>
+                       <input type="number" class="form-control" id="amob" placeholder="Enter your mobile number"/>
+                      </div>
+                      <div class="mb-3"> <i class="error" id="amoberror"></i></div>
+
+                      
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <button type="button" class="btn btn-danger" onclick="adminvalidate()" >Login<i class="fa-solid fa-angles-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!--admin login end-->
+
+            <!--banner start-->
+              <div id="myCarousel" class="carousel slide  carousel-fade" data-bs-ride="carousel"  data-bs-theme="light">
+
+                <div class="carousel-indicators" >
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+    
+                <div class="carousel-inner">
+                  
+                  <div class="carousel-item active">
+                    <img src="../images/frontview.png"  height="500px" width="100%" style="filter: brightness(50%);"/>
+                      <div class="carousel-caption text-start">
+                        <div style=" font-size: 30px; " >
+                     <p style="color:bisque;">𝐻𝑜𝓂𝑒 𝑜𝒻 𝒷𝑒𝓈𝓉 𝒾𝓃𝒹𝒾𝒶𝓃 𝒻𝑜𝑜𝒹...</p>
+                      <p class="text-end">𝓂𝒶𝓀𝑒 𝒶 𝓋𝒾𝓈𝒾𝓉 ..</p>
+
+                    </div>
+                      </div><!--caption end-->
+                    </div><!--item end-->
+        
+                 
+                  <div class="carousel-item">
+                  <img src="../images/food-image10.jpg" height="500px" width="100%" style="filter: brightness(50%);"/>
+                    <div class="container-fluid">
+                      <div class="carousel-caption text-start">
+                        <div style=" font-size: 30px; " >
+                          <p style="color:bisque;"> 𝓌𝒶𝓃𝓉 𝓉𝑜 𝓀𝓃𝑜𝓌 𝒶𝒷𝑜𝓊𝓉 𝓊𝓈 -</p>
+                           <a class=""> <button class="rounded-pill btn btn-outline-warning text-white">About Us</button></a>
+                           <a class=""> <button class="rounded-pill btn btn-outline-warning text-white">Our menu</button></a>
+                           <a class=""> <button class="rounded-pill btn btn-outline-warning text-white">Place order</button></a>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="../images/food-image11.jpg" height="500px" width="100%" style="filter: brightness(50%);"/>
+                    <div class="container-fluid">
+                      <div class="carousel-caption text-start">
+                        <div style=" font-size: 30px; " >
+                          <p style="color:bisque;">𝐹𝑜𝓇𝓉 𝒾𝓈 𝑜𝓅𝑒𝓃 𝓈𝑒𝓋𝑒𝓃 𝒹𝒶𝓎𝓈 𝒶 𝓌𝑒𝑒𝓀.</p>
+                          <p style="color:white;">𝒻𝑜𝓇 𝒾𝓃- 𝓅𝑒𝓇𝓈𝑜𝓃 𝓈𝑒𝓇𝓋𝒾𝒸𝑒 𝒶𝓈 𝓌𝑒𝓁𝓁 𝒶𝓈 𝓉𝒶𝓀𝑒𝑜𝓊𝓉 𝒶𝓃𝒹 𝒹𝑒𝓁𝒾𝓋𝑒𝓇𝓎.</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--banner end-->
+
+                <!--footer start-->
+            <div class=" container-fluid p-4" style="background-color:black; bottom: 0px;">
+                <div class="row">
+                 <div class="col-lg-12 text-center">
+                   <h3 class="text-warning">𝐹𝑜𝓇𝓉</h3>
+                   <p class="text-white">𝓡𝓮𝓼𝓽𝓸𝓻𝓪𝓷𝓽 & 𝓴𝓲𝓽𝓬𝓱𝓮𝓷</p>
+                   <p class="text-light">🇩​​🇪​​🇸​​🇹​​🇮​​🇳​​🇦​​🇹​​🇮​​🇴​​🇳​ ​🇴​​🇫​ ​🇧​​🇪​​🇸​​🇹​ ​🇳​​🇴​​🇷​​🇹​​🇭​ ​🇮​​🇳​​🇩​​🇮​​🇦​​🇳​ ​🇫​​🇴​​🇴​​🇩​</p>
+                   <p class="text-light "> ᴅᴇꜱɪɢɴᴇᴅ ʙʏ @ᴘᴀʀɪᴛᴏꜱʜ_ᴍɪꜱʜʀᴀ</p>
+                   <p class="text-light"> © 𝙲𝚘𝚙𝚢𝚛𝚒𝚐𝚑𝚝 <font style="font-weight: bold; font-size: 20px;">ꜰᴏʀᴛ</font>. 𝙰𝚕𝚕 𝚁𝚒𝚐𝚑𝚝𝚜 𝚁𝚎𝚜𝚎𝚛𝚟𝚎𝚍</p> 
+                 </div>
+                </div>
+           </div>
+            <!--footer end-->
+         
+        </body>
+        </html>

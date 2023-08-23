@@ -1,0 +1,762 @@
+{
+  "allmenu": [
+    {
+      "id": 2,
+      "image": "../images/chowmin.jpg",
+      "name": "chowmin",
+      "type": "Stater",
+      "price": "650",
+      "rating": " <i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 3,
+      "image": "../images/burger.jpg",
+      "name": "Burger",
+      "type": "fast food",
+      "price": "250",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 4,
+      "image": "../images/ittalian_pizza.jpg",
+      "name": "Ittalian-pizza",
+      "type": "fast food",
+      "price": "350",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 6,
+      "image": "../images/pizza-roll.jpg",
+      "name": "Pizza-Roll",
+      "type": "fast food",
+      "price": "550",
+      "rating": " <i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i> "
+    },
+    {
+      "id": 7,
+      "image": "../images/pizzaria.jpg",
+      "name": "Pizzaia",
+      "type": "fast food",
+      "price": "750",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 8,
+      "image": "../images/kadai-paneer.jpg",
+      "name": "Kadhai-Panner",
+      "type": "Sabji",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 9,
+      "image": "../images/paneer_butter_masala.jpg",
+      "name": "Panner-Butter-Masala",
+      "type": "sabji",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 10,
+      "image": "../images/palakpaneer.jpg",
+      "name": "Palak-Paneer",
+      "type": "sabji",
+      "price": "180",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 11,
+      "image": "../images/tawa_roti.jpg",
+      "name": "Tawa-Roti",
+      "type": "Chapati",
+      "price": "15",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 12,
+      "image": "../images/naan.jpg",
+      "name": "Naan-Roti",
+      "type": "Chapati",
+      "price": "20",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 13,
+      "image": "../images/pepsi.jpg",
+      "name": "Pepsi-can",
+      "type": "Soft-drink",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 14,
+      "image": "../images/cocacola1.jpg",
+      "name": "Cocacola-can",
+      "type": "Soft-drink",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 15,
+      "image": "../images/thumsup.jpg",
+      "name": "Thumps-Up",
+      "type": "Soft-drink",
+      "price": "210",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 16,
+      "image": "../images/mocktale1.jpg",
+      "name": "Lemonide",
+      "type": "Mocktail",
+      "price": "350 ",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 17,
+      "image": "../images/mojito.jpg",
+      "name": "Mojito",
+      "type": "Mocktail",
+      "price": "250",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 18,
+      "image": "../images/mocktale_martini.jpg",
+      "name": "Martini",
+      "type": "Mocktail",
+      "price": "550 ",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 19,
+      "image": "../images/mocktale_montary.jpg",
+      "name": "Monatary",
+      "type": "Mocktail",
+      "price": "950",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 20,
+      "image": "../images/mocktale_murten.jpg",
+      "name": "Murten",
+      "type": "Mocktail",
+      "price": "850",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 21,
+      "image": "../images/black-label.jpg",
+      "name": "Black-Label",
+      "type": "Wisky",
+      "price": "1050 ",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 22,
+      "image": "../images/bacardi.jpg",
+      "name": "Redwine",
+      "type": "Bacardi",
+      "price": "750",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "image": "../images/pepsi.jpg",
+      "name": "Pepsi-can",
+      "type": "Soft-drink",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 2,
+      "image": "../images/cocacola1.jpg",
+      "name": "Cocacola-can",
+      "type": "Soft-drink",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 3,
+      "image": "../images/thumsup.jpg",
+      "name": "Thumps-Up",
+      "type": "Soft-drink",
+      "price": "210",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 4,
+      "image": "../images/mocktale1.jpg",
+      "name": "Lemonide",
+      "type": "Mocktail",
+      "price": "350 ",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 5,
+      "image": "../images/mojito.jpg",
+      "name": "Mojito",
+      "type": "Mocktail",
+      "price": "250",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 6,
+      "image": "../images/mocktale_martini.jpg",
+      "name": "Martini",
+      "type": "Mocktail",
+      "price": "550 ",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 7,
+      "image": "../images/mocktale_montary.jpg",
+      "name": "Monatary",
+      "type": "Mocktail",
+      "price": "950",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 8,
+      "image": "../images/mocktale_murten.jpg",
+      "name": "Murten",
+      "type": "Mocktail",
+      "price": "850",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 9,
+      "image": "../images/black-label.jpg",
+      "name": "Black-Label",
+      "type": "Wisky",
+      "price": "1050 ",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 10,
+      "image": "../images/bacardi.jpg",
+      "name": "Redwine",
+      "type": "Bacardi",
+      "price": "750",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 11,
+      "image": "../images/blue_label.jpg",
+      "name": "Blue-Label",
+      "type": "Wisky",
+      "price": "2150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 12,
+      "image": "../images/vodka.jpg",
+      "name": "Absolute",
+      "type": "Vodka",
+      "price": "2050",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    }
+  ],
+  "dinner": [
+    {
+      "id": 3,
+      "image": "../images/burger.jpg",
+      "name": "Burger",
+      "type": "fast food",
+      "price": "250",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 4,
+      "image": "../images/ittalian_pizza.jpg",
+      "name": "Ittalian-pizza",
+      "type": "fast food",
+      "price": "350",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 5,
+      "image": "../images/pizza1.jpg",
+      "name": "Paneer-Pizza",
+      "type": "fast food",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 6,
+      "image": "../images/pizza-roll.jpg",
+      "name": "Pizza-Roll",
+      "type": "fast food",
+      "price": "550",
+      "rating": " <i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i> "
+    },
+    {
+      "id": 8,
+      "image": "../images/kadai-paneer.jpg",
+      "name": "Kadhai-Panner",
+      "type": "Sabji",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 9,
+      "image": "../images/paneer_butter_masala.jpg",
+      "name": "Panner-Butter-Masala",
+      "type": "sabji",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 10,
+      "image": "../images/palakpaneer.jpg",
+      "name": "Palak-Paneer",
+      "type": "sabji",
+      "price": "180",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    }
+  ],
+  "lunch": [
+    {
+      "id": 1,
+      "image": "../images/ittalian_pizza.jpg",
+      "name": "Ittalian-pizza",
+      "type": "fast food",
+      "price": "350",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 2,
+      "image": "../images/pizza1.jpg",
+      "name": "Paneer-Pizza",
+      "type": "fast food",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 3,
+      "image": "../images/pizza-roll.jpg",
+      "name": "Pizza-Roll",
+      "type": "fast food",
+      "price": "550",
+      "rating": " <i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i> "
+    },
+    {
+      "id": 4,
+      "image": "../images/honeychilli.jpg",
+      "name": "Honey-chilli-potato",
+      "type": "Stater",
+      "price": "950",
+      "rating": " <i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i> "
+    },
+    {
+      "id": 5,
+      "image": "../images/chowmin.jpg",
+      "name": "chowmin",
+      "type": "Stater",
+      "price": "650",
+      "rating": " <i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 6,
+      "image": "../images/burger.jpg",
+      "name": "Burger",
+      "type": "fast food",
+      "price": "250",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 7,
+      "image": "../images/pizzaria.jpg",
+      "name": "Pizzaia",
+      "type": "fast food",
+      "price": "750",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 8,
+      "image": "../images/kadai-paneer.jpg",
+      "name": "Kadhai-Panner",
+      "type": "Sabji",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 9,
+      "image": "../images/paneer_butter_masala.jpg",
+      "name": "Panner-Butter-Masala",
+      "type": "sabji",
+      "price": "150",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 10,
+      "image": "../images/palakpaneer.jpg",
+      "name": "Palak-Paneer",
+      "type": "sabji",
+      "price": "180",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    },
+    {
+      "id": 11,
+      "image": "../images/tawa_roti.jpg",
+      "name": "Tawa-Roti",
+      "type": "Chapati",
+      "price": "15",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa-solid fa-star-half' style='color:gold'></i>"
+    },
+    {
+      "id": 12,
+      "image": "../images/naan.jpg",
+      "name": "Naan-Roti",
+      "type": "Chapati",
+      "price": "20",
+      "rating": "<i class='fa fa-star' style='color:gold'></i> <i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i><i class='fa fa-star' style='color:gold'></i>"
+    }
+  ],
+  "orderes": [
+    {
+      "name": "gfryhgnvmfvb ",
+      "city": "banglore",
+      "mob": "9898989898",
+      "adrs": "dffhdghgfdhghgffhjgjghcgfhjcgfh",
+      "orderdetails": {
+        "items": [
+          "Kadhai-Panner",
+          "Ittalian-pizza",
+          "Paneer-Pizza",
+          "chowmin",
+          "Honey-chilli-potato"
+        ],
+        "types": [
+          "Stater",
+          "Stater",
+          "fast food",
+          "fast food",
+          "Sabji"
+        ],
+        "prices": [
+          "150",
+          "350",
+          "150",
+          "650",
+          "950"
+        ],
+        "qtys": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": [
+          "150",
+          "350",
+          "150",
+          "650",
+          "950"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "name": "gfryhgnvmfvb ",
+      "city": "banglore",
+      "mob": "8989989998",
+      "adrs": "EAESTDFHJKHJGFDSFGHJCM,",
+      "orderdetails": {
+        "items": [
+          "Black-Label",
+          "Redwine"
+        ],
+        "types": [
+          "Vodka",
+          "Bacardi"
+        ],
+        "prices": [
+          "1050 ",
+          "750"
+        ],
+        "qtys": [
+          1,
+          1
+        ],
+        "total": [
+          "1050 ",
+          "750"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "name": "paritosh mishra",
+      "city": "mumbai",
+      "mob": "9090909090",
+      "adrs": "mishraji ki gali , tehsil road , lalsot",
+      "orderdetails": {
+        "items": [
+          "Pepsi-can",
+          "Cocacola-can",
+          "Naan-Roti",
+          "Pizzaia",
+          "Pizza-Roll",
+          "Burger"
+        ],
+        "types": [
+          "fast food",
+          "fast food",
+          "fast food",
+          "Chapati",
+          "Soft-drink",
+          "Soft-drink"
+        ],
+        "prices": [
+          "150",
+          "150",
+          "20",
+          "750",
+          "550",
+          "250"
+        ],
+        "qtys": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": [
+          "150",
+          "150",
+          "20",
+          "750",
+          "550",
+          "250"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "name": "paritosh mishra",
+      "city": "delhi",
+      "mob": "9899898998",
+      "adrs": "jkhhjhkjhkjkjjhkhjkhkjlhkjlk",
+      "orderdetails": {
+        "items": [
+          "Pizzaia",
+          "Ittalian-pizza",
+          "Burger"
+        ],
+        "types": [
+          "fast food",
+          "fast food",
+          "fast food"
+        ],
+        "prices": [
+          "750",
+          "350",
+          "250"
+        ],
+        "qtys": [
+          1,
+          1,
+          1
+        ],
+        "total": [
+          "750",
+          "350",
+          "250"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "name": "mishraparitosh",
+      "city": "jaipur",
+      "mob": "7878787878",
+      "adrs": "hjkhkjlfdhdskfjldfkjlhsfdfdhkfflk",
+      "orderdetails": {
+        "items": [
+          "Tawa-Roti",
+          "Kadhai-Panner",
+          "Burger",
+          "Honey-chilli-potato",
+          "Paneer-Pizza"
+        ],
+        "types": [
+          "fast food",
+          "Stater",
+          "fast food",
+          "Sabji",
+          "Chapati"
+        ],
+        "prices": [
+          "15",
+          "150",
+          "250",
+          "950",
+          "150"
+        ],
+        "qtys": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": [
+          "15",
+          "150",
+          "250",
+          "950",
+          "150"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "name": "gfryhgnvmfvb ",
+      "city": "deohi",
+      "mob": "9090909090",
+      "adrs": "hgjkhbukjbfvhjfbkiufsvifjivcfjv",
+      "orderdetails": {
+        "items": [
+          "chowmin",
+          "Ittalian-pizza",
+          "Burger"
+        ],
+        "types": [
+          "fast food",
+          "fast food",
+          "Stater"
+        ],
+        "prices": [
+          "650",
+          "350",
+          "250"
+        ],
+        "qtys": [
+          1,
+          1,
+          1
+        ],
+        "total": [
+          "650",
+          "350",
+          "250"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "name": "monu",
+      "city": "delhi",
+      "mob": "9898989898",
+      "adrs": "xfhjgghfvdfjdhfgkjhdfskljdfbkjfkdsfllf",
+      "orderdetails": {
+        "items": [
+          "Ittalian-pizza",
+          "Burger"
+        ],
+        "types": [
+          "fast food",
+          "fast food"
+        ],
+        "prices": [
+          "350",
+          "250"
+        ],
+        "qtys": [
+          1,
+          1
+        ],
+        "total": [
+          "350",
+          "250"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "name": "gfryhgnvmfvb ",
+      "city": "banglore",
+      "mob": "8989898989",
+      "adrs": "gfghfjyfgjhfhfxhjkghjfjyhfkyohfgjfyiouygh",
+      "orderdetails": {
+        "items": [
+          "Pizza-Roll",
+          "Ittalian-pizza",
+          "Burger"
+        ],
+        "types": [
+          "fast food",
+          "fast food",
+          "fast food"
+        ],
+        "prices": [
+          "550",
+          "350",
+          "250"
+        ],
+        "qtys": [
+          1,
+          "5",
+          1
+        ],
+        "total": [
+          "550",
+          1750,
+          "250"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "name": "rishi",
+      "city": "bangalore",
+      "mob": "8989898989",
+      "adrs": "fgdhjkyufhhvjdkfhjfhjjhufkhjvjhkukfhjnhkh",
+      "orderdetails": {
+        "items": [
+          "Pizzaia",
+          "Burger"
+        ],
+        "types": [
+          "fast food",
+          "fast food"
+        ],
+        "prices": [
+          "750",
+          "250"
+        ],
+        "qtys": [
+          "3",
+          "3"
+        ],
+        "total": [
+          2250,
+          750
+        ]
+      },
+      "id": 9
+    }
+  ],
+  "user": [
+    {
+      "email": "rishi12@gmail.com",
+      "mob": "7878787878",
+      "password": "12345678",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "email": "paritosh31mishra@gmail.com",
+      "password": "paritosh@1",
+      "mob": "6375995783"
+    }
+  ]
+}

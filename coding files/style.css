@@ -1,0 +1,229 @@
+
+html{
+ scroll-behavior: smooth;
+}
+
+.act{
+  color: white;
+}
+ .nav-link{
+   position: relative;
+ }
+  .nav-link:hover::after {
+      content: '';
+      height:2px;
+      width: 100%;
+      background-color: bisque;
+      bottom:-5px;
+      position:absolute;
+      left:0px;
+      transition:0.5s ;
+  }
+
+   .nav-link:focus::after{
+      content: '';
+      height:2px;
+      width: 100%;
+      background-color: bisque;
+      bottom:-5px;
+      position:absolute;
+      left:0px;
+      transition:0.5s ;
+  } 
+
+  video{
+   border: 3px solid black;
+   border-radius: 5px;
+   box-shadow: 0px 0px 9px brown;
+  }
+
+
+ #event-frame{
+  background-image: url("../images/background-hall.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+   /* height: 500px; */
+   padding: 10px;
+   filter: brightness(70%);
+ }
+
+ #event-subframe{
+   backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding-bottom: 20px;
+ }
+
+ #event-subframe div img:hover{
+   transform: scale(0.98);
+   overflow: hidden;
+   transition: all 0.5s;
+ }
+
+ label{
+   font-weight: bold;
+ }
+
+ /* for gallery */
+ .image1{
+   background-image: url(../images/food1.jpg);
+ }
+
+ .image2{
+   background-image: url(../images/food2.jpg);
+ }
+
+ .image3{
+   background-image: url(../images/food3.jpg);
+ }
+
+ .image4{
+   background-image: url(../images/food4.jpg);
+ }
+
+ .image5{
+   background-image: url(../images/food5.jpg);
+ }
+
+ .image6{
+   background-image: url(../images/food6.jpg);
+ }
+
+ .image7{
+   background-image: url(../images/foodimage5.jpg);
+ }
+
+ .image8{
+   background-image: url(../images/foodimage6.jpg);
+ }
+
+ .photo{
+   background-size: 100% 100%;
+   border-radius: 10px;
+   height: 200px;
+  border-width: 6px;
+  border-color:  black;
+   border-style: double;
+ 
+ }
+
+ .photo:hover{
+   filter: brightness(70%);
+   transform: scale(1.1);  
+   /* zoom in effect */
+   transition: all 0.9s;
+ 
+ }
+
+.frame{
+ overflow: hidden;
+}          
+
+.review{
+ background-image: url(../images/background-hall.jpg);
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ filter: brightness(50%);
+ height: 600px;
+ margin-top: 100px;
+  padding: 100px;
+}
+
+.reviews{
+  backdrop-filter: blur(10px);
+  height: 400px;
+}
+
+.reviews img{
+ height: 100px; 
+ width: 10%; 
+ border-color: black;
+ border-width: 3px;
+}
+
+.reviews img:hover{
+   filter: contrast(200%);
+   
+}
+
+.parent:hover .child{
+   background-color: orange!important;
+  transition: 1s !important;
+}
+
+.parent:hover i{
+ color:white !important;
+ transition: 1s !important; 
+}
+
+#bday{
+   background-image: url(../images/birthday.jpg);
+   background-size: 100% 100%;
+}
+
+#party{
+ background-image: url(../images/party.jpg);
+ background-size: 100% 100%;
+}
+
+#wedding{
+ background-image: url(../images/wedding.jpg);
+ background-size: 100% 100%;
+}
+.event{
+ width: 100%;
+  height: 250px; 
+}
+
+.event:hover{
+ filter: contrast(150%);
+   transform: scale(1.1);  
+   /* zoom in effect */
+   transition: all 0.9s;
+  
+}
+
+.frames{
+    overflow: hidden;
+    width: 80%;
+    height: 250px; 
+  box-shadow: 0px 0px 9px gold;
+  margin-left: 5px;
+
+ }
+
+ #mybtn{
+   position:fixed !important;
+   bottom: 20px !important;
+   right: 30px !important;
+ }
+
+ .error{
+  color:red;
+}
+
+@media screen and (min-width: 1px) and (min-width: 576px) 
+ {
+    .food{
+        display: grid;
+        grid-template-columns: auto !important;
+    }
+ }
+
+ @media screen and (min-width: 577px) and (min-width: 768px) 
+ {
+    .food{
+        display: grid;
+        grid-template-columns: auto auto!important;
+    }
+ }
+
+ @media screen and (min-width: 769px) and (min-width: 992px) 
+ {
+    .food{
+        display: grid;
+        grid-template-columns: auto auto auto !important;
+    }
+ }
+
+ 
+

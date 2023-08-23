@@ -1,0 +1,60 @@
+.myfooter{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.footeritem{
+    padding: 0px;
+    color:white;
+}
+
+@media screen and (min-width:1px) and (max-width: 576px){
+   .myfooter{
+    grid-template-columns: auto;
+   }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px)
+{
+    .myfooter{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    .myfooter{
+        grid-template-columns: auto auto auto ;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px)
+{
+    .myfooter{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+.servicetitle{
+    color:darkblue;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.serviceheading{
+    color:darkblue;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.purple{
+    color: purple;
+}
+
+.orange{
+    color:orange;
+}
+
+.orangered{
+    color: orangered;
+}

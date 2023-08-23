@@ -1,0 +1,137 @@
+
+html{
+    scroll-behavior: smooth;
+   }
+
+   a{
+    text-decoration: none;
+   }
+   
+   /* .animate{
+    transform: translate(0%, 100%);
+   }
+ 
+   .effect{
+    transform: translate(0%, 0%);
+    transition: 3s;
+   } */
+   ::-webkit-scrollbar{
+    scroll-behavior: smooth;
+   }
+
+.menu{
+    position:relative;
+}
+.menu::after{
+  position: absolute;
+  bottom:-10px;
+  content: '';
+  background-color:orange;
+  left:45%;
+  width: 10%;
+  height: 3px;
+}
+
+#submenu{
+    position:relative;
+    font-weight: bold; 
+    font-style: italic; 
+    color:black;
+    outline: none;
+    border: none;
+}
+
+#submenu:hover::after{
+    position:absolute;
+    content: '';
+    width: 100%;
+    left: 0%;
+    bottom: -5px;
+    background-color:rgb(90, 40, 5);
+    height: 2px;
+    transition: all 5s;
+}
+
+#submenu:focus::after{
+    position:absolute;
+    content: '';
+    width: 100%;
+    left: 0%;
+    bottom: -5px;
+    background-color:rgb(90, 40, 5);
+    height: 2px;
+    transition: all 5s;
+}
+
+
+.food-item:hover{
+    transform: scale(1.05);
+    transition: all 0.8s;
+    transition-timing-function: ease-out;
+}
+
+.pic{
+    height:200px;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    
+}
+
+.pic:hover{
+    transform: scale(1.1);
+    filter: contrast(120%);
+    transition: all 0.8s;
+}
+.img-frame{
+    overflow:hidden;
+}
+
+input::-webkit-outer-spin-button, 
+ input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+ }
+
+ input:focus{
+    outline: none!important;
+    box-shadow: none!important;
+    
+ }
+
+ .changecolor{
+    background-color: darkgreen;
+    color: white;
+    border: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
+
+ .error{
+    color: red;
+ }
+
+ @media screen and (min-width: 1px) and (min-width: 576px) 
+ {
+    .food{
+        display: grid;
+        grid-template-columns: auto !important;
+    }
+ }
+
+ @media screen and (min-width: 577px) and (min-width: 768px) 
+ {
+    .food{
+        display: grid;
+        grid-template-columns: auto auto!important;
+    }
+ }
+
+ @media screen and (min-width: 769px) and (min-width: 992px) 
+ {
+    .food{
+        display: grid;
+        grid-template-columns: auto auto auto !important;
+    }
+ }
+
+ 
+

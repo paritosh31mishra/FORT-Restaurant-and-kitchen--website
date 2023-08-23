@@ -1,0 +1,546 @@
+<html>
+    <head>
+        <title> Drinks  </title>
+        <link rel="stylesheet" href="../dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="../myicon/css/all.css"/>
+        <script  src= "../dist/js/bootstrap.min.js" > </script>
+        <link rel="icon" href="fort-icon.png" type="image/x-icon" />
+          <link rel="stylesheet" href="../coding files/style1.css" />
+          
+
+   <style>
+    #img1{
+    background-image: url(../images/pepsi.jpg);
+}
+
+#img2{
+    background-image: url(../images/cocacola1.jpg);
+}
+
+#img3{
+    background-image: url(../images/thumsup.jpg);
+}
+
+#img4{
+    background-image: url(../images/mocktale1.jpg);
+}
+
+#img5{
+    background-image: url(../images/mojito.jpg);
+}
+
+#img6{
+    background-image: url(../images/mocktale_martini.jpg);
+}
+
+#img7{
+    background-image: url(../images/mocktale_montary.jpg);
+}
+
+#img8{
+    background-image: url(../images/mocktale_murten.jpg);
+}
+
+#img9{
+    background-image: url(../images/black-label.jpg);
+}
+
+#img10{
+    background-image: url(../images/bacardi.jpg);
+}
+
+#img11{
+    background-image: url(../images/blue_label.jpg);
+}
+
+#img12{
+    background-image: url(../images/vodka.jpg);
+}
+ 
+   </style>
+       </head>
+
+    <body >
+           <div class="container-fluid "> <!--container start-->  
+                    <div class="row"> <!--row start-->
+                        <div class="col-lg-4"></div>
+                         <!--search bar start-->
+                       <div class="col-lg-4 text-center mt-5"> 
+                        <div class="input-group ">
+                            <input type="search" placeholder="search" class="form-control" id="search" onkeyup="see()"/>
+                            <button class=" input-group-text"><i class="fa fa-search"></i></button>
+                        </div>
+                        </div> 
+                        <!--search bar end-->
+                       <div class="col-lg-4"></div>
+                    </div> <!--row end-->
+
+                    <div class="row" >  <!--row start 1st food line start-->
+                       <div class="col-lg-4 p-5">  <!--col 4 start-->
+                         <div class="bg-light container shadow-lg rounded p-4 food-item"  > <!--food-box1 start-->
+                                 <div class=" row img-frame  rounded"> <!--row start-->
+                                    <div id="img1" class="pic rounded "></div>
+                                </div>  <!--row end-->
+
+                                <div class="row p-3 justify-content-center" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                            <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Pepsi-can</p>  <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Soft-drink</font></div>
+                                </div>   <!--row end-->
+
+                                <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                     <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                        <label class="text-danger">Ratting-</label>
+                                        <i class="fa fa-star" style="color:gold"></i>
+                                        <i class="fa fa-star" style="color:gold"></i>
+                                        <i class="fa fa-star" style="color:gold"></i>
+                                        <i class="fa fa-star" style="color:gold"></i>
+                                        <i class="fa fa-star" style="color:gold"></i>
+                                    </div>
+                              </div> <!--row end-->
+                              <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">950 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row text-start"> <!--row start-->
+                                <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                                <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                     <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                      <button class="input-group-text " onclick="add('imgg1')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                       <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg1'/>
+                                       <button class="input-group-text " onclick="minus('imgg1')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                     </div> <!--input group end-->
+                                </div> <!--col 7 end-->
+                            </div><!--row end-->
+                            </div>  <!--food box end-->
+                       </div><!--col 4 end-->
+
+
+                       <div class="col-lg-4 p-5">  <!--col 4 start-->
+                        <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box2 start-->
+                                <div class=" row img-frame  rounded"> <!--row start-->
+                                   <div id="img2" class="pic rounded "></div>
+                               </div>  <!--row end-->
+
+                               <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Cocacola-can</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Soft-drink</font></div>
+                               </div>   <!--row end-->
+
+                               <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa-solid fa-star-half" style="color: gold;"></i>
+                                </div>
+                             </div> <!--row end-->
+
+                             <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">650 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row text-start"> <!--row start-->
+                                <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                                <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                     <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                      <button class="input-group-text " onclick="add('imgg2')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                       <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg2'/>
+                                       <button class="input-group-text " onclick="minus('imgg2')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                     </div> <!--input group end-->
+                                </div> <!--col 7 end-->
+                            </div><!--row end-->
+                           </div>  <!--food box end-->
+                      </div><!--col 4 end-->
+
+
+                      <div class="col-lg-4 p-5">  <!--col 4 start-->
+                        <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 3 start-->
+                                <div class=" row img-frame  rounded"> <!--row start-->
+                                   <div id="img3" class="pic rounded "></div>
+                               </div>  <!--row end-->
+
+                               <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Thumps Up </p><font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Soft-drink</font></div>
+                               </div>   <!--row end-->
+
+                               <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                </div>
+                             </div> <!--row end-->
+                             <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">450 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row text-start"> <!--row start-->
+                                <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                                <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                     <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                      <button class="input-group-text " onclick="add('imgg3')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                       <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg3' />
+                                       <button class="input-group-text " onclick="minus('imgg3')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                     </div> <!--input group end-->
+                                </div> <!--col 7 end-->
+                            </div><!--row end-->
+                           </div>  <!--food box end-->
+                      </div><!--col 4 end-->
+                   </div> <!--row end first food line end-->
+
+                   <div class="row " >  <!--row start second food line start-->
+                    <div class="col-lg-4 p-5">  <!--col 4 start-->
+                      <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box start-->
+                              <div class=" row img-frame  rounded"> <!--row start-->
+                                 <div id="img4" class="pic rounded "></div>
+                             </div>  <!--row end-->
+
+                             <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Lemonide</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Mocktail</font></div>
+                             </div>   <!--row end-->
+
+                             <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa-solid fa-star-half" style="color: gold;"></i>
+                                </div>
+                           </div> <!--row end-->
+
+                           <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">350 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg4')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg4'/>
+                                   <button class="input-group-text " onclick="minus('imgg4')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                         </div>  <!--food box end-->
+                    </div><!--col 4 end-->
+
+
+                    <div class="col-lg-4 p-5">  <!--col 4 start-->
+                     <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box start-->
+                             <div class=" row img-frame  rounded"> <!--row start-->
+                                <div id="img5" class="pic rounded "></div>
+                            </div>  <!--row end-->
+
+                            <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Mojito</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Mocktail</font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                </div>
+                          </div> <!--row end-->
+
+                          <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">290 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text "  onclick="add('imgg5')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg5'/>
+                                   <button class="input-group-text " onclick="minus('imgg5')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                        </div>  <!--food box end-->
+                   </div><!--col 4 end-->
+
+
+                   <div class="col-lg-4 p-5">  <!--col 4 start-->
+                     <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 6 start-->
+                             <div class=" row img-frame  rounded"> <!--row start-->
+                                <div id="img6" class="pic rounded "></div>
+                            </div>  <!--row end-->
+
+                            <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Martini</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Mocktail</font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa-solid fa-star-half" style="color: gold;"></i>
+                                </div>
+                          </div> <!--row end-->
+
+                          <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">550 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg6')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg6'/>
+                                   <button class="input-group-text " onclick="minus('imgg6')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                        
+                        </div>  <!--food box end-->
+                   </div><!--col 4 end-->
+                </div> <!--row end second food line end-->
+
+                <div class="row" >  <!--row start third food line start-->
+                    <div class="col-lg-4 p-5">  <!--col 4 start-->
+                      <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 7 start-->
+                              <div class=" row img-frame  rounded"> <!--row start-->
+                                 <div id="img7" class="pic rounded "></div>
+                             </div>  <!--row end-->
+
+                             <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Monatary</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Mocktail</font></div>
+                             </div>   <!--row end-->
+
+                             <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                </div>
+                           </div> <!--row end-->
+
+                           <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">200 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg7')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg7'/>
+                                   <button class="input-group-text " onclick="minus('imgg7')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                         </div>  <!--food box end-->
+                    </div><!--col 4 end-->
+
+
+                    <div class="col-lg-4 p-5">  <!--col 4 start-->
+                     <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 8 start-->
+                             <div class=" row img-frame  rounded"> <!--row start-->
+                                <div id="img8" class="pic rounded "></div>
+                            </div>  <!--row end-->
+
+                            <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Murten</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Mocktail</font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa-solid fa-star-half" style="color: gold;"></i>
+                                </div>
+                          </div> <!--row end-->
+
+                          <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">350 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg8')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id="imgg8"/>
+                                   <button class="input-group-text " onclick="minus('imgg8')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                        </div>  <!--food box end-->
+                   </div><!--col 4 end-->
+
+
+                   <div class="col-lg-4 p-5">  <!--col 4 start-->
+                     <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 9 start-->
+                             <div class=" row img-frame  rounded"> <!--row start-->
+                                <div id="img9" class="pic rounded "></div>
+                            </div>  <!--row end-->
+
+                            <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Black-Label</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Wisky</font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                </div>
+                          </div> <!--row end-->
+
+                          <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">250 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+                        
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg9')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id="imgg9"/>
+                                   <button class="input-group-text " onclick="minus('imgg9')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                        </div>  <!--food box end-->
+                   </div><!--col 4 end-->
+                </div> <!--row end third food line end-->
+
+                <div class="row " >  <!--row start fourth food line start-->
+                    <div class="col-lg-4 p-5">  <!--col 4 start-->
+                      <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 10 start-->
+                              <div class=" row img-frame  rounded"> <!--row start-->
+                                 <div id="img10" class="pic rounded "></div>
+                             </div>  <!--row end-->
+
+                             <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Redwine</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Bacardi</font></div>
+                             </div>   <!--row end-->
+
+                             <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa-solid fa-star-half" style="color: gold;"></i>
+                                </div>
+                           </div> <!--row end-->
+
+                           <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">3000 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg10')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id="imgg10"/>
+                                   <button class="input-group-text " onclick="minus('imgg10')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                         </div>  <!--food box end-->
+                    </div><!--col 4 end-->
+
+
+                    <div class="col-lg-4 p-5">  <!--col 4 start-->
+                     <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 11 start-->
+                             <div class=" row img-frame  rounded"> <!--row start-->
+                                <div id="img11" class="pic rounded "></div>
+                            </div>  <!--row end-->
+
+                            <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Blue-Label</p> <font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Wisky</font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                </div>
+                          </div> <!--row end-->
+
+                          <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">2000 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            <div class="col-lg-5 text-end text-secondary">Qty: </div>
+                            <div class="col-lg-7 text-start">  <!--col 7 start-->
+                                 <div class="input-group"  style="height: 20px; width: 70%;" > <!--input group start-->
+                                  <button class="input-group-text " onclick="add('imgg11')"><i class="fa-solid fa-plus" style="color: black; border-right:none; font-size:12px;" ></i></button>
+                                   <input type="number" value="0" max="50" min="0" style=" font-size: 12px; " class="form-control" id='imgg11'/>
+                                   <button class="input-group-text " onclick="minus('imgg11')"><i class="fa-solid fa-minus" style="color: black; font-size:12px;"></i></button>
+                                 </div> <!--input group end-->
+                            </div> <!--col 7 end-->
+                        </div><!--row end-->
+                        </div>  <!--food box end-->
+                   </div><!--col 4 end-->
+
+
+                   <div class="col-lg-4 p-5">  <!--col 4 start-->
+                     <div class="bg-light container shadow-lg rounded p-4 food-item" > <!--food-box 12 start-->
+                             <div class=" row img-frame  rounded"> <!--row start-->
+                                <div id="img12" class="pic rounded "></div>
+                            </div>  <!--row end-->
+
+                            <div class="row p-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center text-dark" style="font-weight: bold;"> <p>Absolute </p><font style="background-color:orange; margin-left: 5px;" class="p-1 rounded text-white">Vodka</font></div>
+                            </div>   <!--row end-->
+
+                            <div class="row" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                                <div class="col-lg-12 text-center" style=" font-size: 12px;"> 
+                                    <label class="text-danger">Ratting-</label>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa fa-star" style="color:gold"></i>
+                                    <i class="fa-solid fa-star-half" style="color: gold;"></i>
+                                </div>
+                          </div> <!--row end-->
+
+                          <div class="row p-2" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> <!--row start-->
+                            <div class="col-lg-12 text-center text-danger fs-5" style="font-weight: bold; "> Price -  <font class="p-1  text-dark">2300 <i class="fa-solid fa-indian-rupee-sign text-dark"></i></font></div>
+                        </div>   <!--row end-->
+
+                        <div class="row text-start"> <!--row start-->
+                            
+                        </div><!--row end-->
+                        </div>  <!--food box end-->
+                   </div><!--col 4 end-->
+                </div> <!--row end fourth food line end-->
+               </div> <!--  food box end container end-->
+
+            </div>   <!--row end-->
+           </div> <!--container end-->
+    </body>
+    </html>

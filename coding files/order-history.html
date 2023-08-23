@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title> Fort admin portal  </title>
+        <link rel="stylesheet" href="../dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="../myicon/css/all.css"/>
+        <script  src= "../dist/js/bootstrap.min.js" > </script>
+        <link rel="icon" href="fort-icon.png" type="image/x-icon" />
+       <link rel="stylesheet" href="../coding files/style.css" />
+       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <link rel="stylesheet" href="../coding files/style1.css" />
+       <script src="../coding files/admin-portal.js" ></script>
+    </head>
+
+    <body class="bg-light" onload="show_history()">
+       
+            <!--nav bar start-->
+              <nav class="navbar navbar-expand-md navbar-dark  p-3 sticky-top" style="background-color:  rgba(11, 7, 1, 0.997)!important; ">
+                <div class="container-fluid pl-3">
+                  <a class="navbar-brand " href="#">  <i class="fa-brands fa-fort-awesome fa-2x " style="color: bisque;"></i> <font  style="color: bisque; font-family: Didot, serif; margin-left: 3px; font-size: 30px; ">FORT</font></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    
+                      <li class="nav-item ps-3">
+                        <a class="nav-link " href="products.html" class="fa fa-plus" > <i class="fa-solid fa-box-open"></i> Products</a>
+                      </li>
+    
+                      <li class="nav-item ps-3">
+                        <a class="nav-link active" href="order-history.html" ><i class="fa-solid fa-book"></i> history</a>
+                      </li>
+                      <li class="nav-item ps-3">
+                        <a class="nav-link" href="show_users.html" ><i class="fa fa-users"></i>  Users</a>
+                      </li>
+
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+              <!--nav  bar end-->
+
+              <!-- history -->
+             <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-12 text-center text-danger"><h1 ><u>History</u></h1></div>
+                </div>
+
+                <div class="row  text-dark" style="padding: 5% 10% 5%;">
+                  <div id="history-box" class="text-center"></div>
+                </div>
+             </div>
+
+              </body>
+              </html>

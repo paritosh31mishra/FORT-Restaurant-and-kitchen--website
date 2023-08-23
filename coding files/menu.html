@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> menu  </title>
+        <link rel="stylesheet" href="../dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="../myicon/css/all.css"/>
+        <script  src= "../dist/js/bootstrap.min.js" > </script>
+        <link rel="icon" href="fort-icon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../coding files/style1.css" />
+        <script src="../coding files/myscript.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+       
+    </head>
+    <body class="bg-light">
+           <div class="container "> <!--container start-->
+             <div class="row mt-5"><!--row start-->
+                <div class="col-lg-12 text-center fs-1 text-warning menu"> Our <font style="color:rgb(90, 40, 5);"> Menu </font></div>
+             </div><!--rowend-->
+
+                      <div class="row "> <!--row start-->
+                        <div class="col-lg-12 p-5 text-center">
+                           <div class="btn btn-group">
+                          <button class="btn btn-primary text-white fs-6 " style="padding: 4px 15px 4px; " onclick="all_product()">All</button> 
+                            <button class="btn btn-info text-white fs-6" style="padding: 4px 15px 4px; " onclick="drinks()">Drinks</button> 
+                            <button class="btn btn-success text-white fs-6" style="padding: 4px 15px 4px; " onclick="lunch()">Lunch</button> 
+                           <button class="btn btn-warning text-white fs-6" style="padding: 4px 15px 4px; " onclick="dinner()">Dinner</button> 
+                          <button type="button " class="btn btn-danger text-white fs-6"  style="padding: 4px 15px 4px;"> <a class="text-white" href="#cart" >Cart </a></button>
+                          </div>
+                          </div> <!--col-lg -12 end-->
+                      </div><!--row end-->
+
+   <div class="row" id="product-box" >  <!--row start-->
+   
+    </div><!--row end-->
+  
+     <div class="row" id="cart">
+      
+      <div class="container "  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-top: 100px;">
+        <div class="row">
+         <div class="col-lg-12 text-center"> <h1 class="text-dark" style="font-weight: bold;"><u>Order Details</u></h1></div>
+        </div>
+
+        <div class="row " style="padding: 70px;"> <!--row start-->
+         <div class="col-lg-12">
+            <table class="table table-bordered" >
+              <thead>
+                  <tr class="text-center table-info">
+                     <th id="data">ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>QTY</th>
+                    <th>Total</th>
+                    <th>Delete</th>
+                 </tr>
+             </thead>
+             <tbody id="p_details" >
+                 <tr>
+                     <td colspan="6" class="text-center text-danger">No Record !!</td>
+                 </tr>
+             </tbody>
+            </table>
+         </div>
+        </div> <!--row end-->
+ 
+         <div class="row"> <!--row start-->
+         
+           <div class="container p-5"> <!--form container start-->
+             <div class="row"> <!--form row start-->
+             <div class="col-lg-12 text-center">
+              <h1 class="text-dark mb-5" style="font-weight: bold;"><u>Customer Details</u></h1>
+             </div>
+                <div class="col-lg-4">
+                   <label class="p-1">Full Name</label>
+                   <input type="text" class="form-control mb-3" id="name" placeholder="Please enter your name"/>
+                   <i id="nameerror" class="error"></i>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <label class="p-1">Mobile no.</label>
+                    <input type="number" class="form-control  mb-3" id="mob" placeholder="Please enter your mobile-no"/>
+                    <i id="moberror" class="error"></i>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <label class="p-1">city</label>
+                    <input type="text" class="form-control  mb-3" id="city" placeholder="Please enter your city"/>
+                    <i id="cityerror" class="error"></i>
+                  </div>
+                 
+                  <div class="col-lg-12">
+                    <label class="p-1">Address</label>
+                    <textarea class="form-control  mb-4" id="adrs" placeholder="Please enter your address" rows="4"></textarea>
+                    <i id="adrserror" class="error"></i>
+                  </div>
+                
+                  <div class="col-lg-12 text-center">
+                    <button type="submit" class="btn btn-primary m-3" onclick="validation()"> Place Order</button>
+                    <button type="reset" class="btn btn-danger" onclick="reset()"> Clear All</button>
+                  </div>
+
+             </div> <!--form row end-->
+           </div><!--form container end-->
+          
+         </div> <!--row end-->
+
+   </div>
+     </div>
+     </div> <!--main container end-->
+    </body>
+  </html>
